@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         // comnetario aca
+        // comentario 2
 
         ArrayList<Producto> productos = new ArrayList<>();
         productos.add(new Producto("nombre1", 1.0));
