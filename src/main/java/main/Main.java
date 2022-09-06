@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
         // comnetario aca
-        // comentario EX 2
-        // comentario 4 en master y en conflicto
+        // comentario 2
+        // comentario 3 en github
+        // Comentario 9 en master
 
         ArrayList<Producto> productos = new ArrayList<>();
         productos.add(new Producto("nombre1", 1.0));
