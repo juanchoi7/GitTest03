@@ -13,6 +13,8 @@ public class Producto {
     private String nombre;
     private Double precio;
 
+    // comentario aca tambien
+
     public String toString() {
         String s = "Producto { " +
                 " nombre=" + this.getNombre() +

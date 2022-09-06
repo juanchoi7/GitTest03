@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
+        // comnetario aca
+
         ArrayList<Producto> productos = new ArrayList<>();
         productos.add(new Producto("nombre1", 1.0));
         productos.add(new Producto("nombre2", 2.0));
