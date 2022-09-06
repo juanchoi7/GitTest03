@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Producto> productos = new ArrayList<>();
         productos.add(new Producto("nombre1", 1.0));
         productos.add(new Producto("nombre2", 2.0));
-        productos.add(new Producto("nombre3", 3.0));
+        productos.add(new Producto("nombre33", 3.0));
         productos.add(new ProductoPerecedero(7));
         productos.add(new ProductoNoPerecedero("Tipo5"));
 
@@ -26,6 +26,7 @@ public class Main {
         System.out.println(productos.get(0).calcular(6));
         System.out.println(productos.get(1).calcular(6));
         System.out.println(productos.get(2).calcular(6));
+
 
 
         System.out.println("Fin del mundo.");
