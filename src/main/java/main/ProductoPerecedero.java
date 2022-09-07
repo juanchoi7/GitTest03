@@ -15,9 +15,17 @@ public class ProductoPerecedero extends Producto {
         this.diasPorCaducar = diasPorCaducar;
     }
 
+    @Override
+    public String toString() {
+        return "ProductoPerecedero{" +
+                " nombre='" + this.getNombre() + '\'' +
+                " precio=" + this.getPrecio() +
+                " diasPorCaducar=" + diasPorCaducar +
+                '}';
+    }
+
     public Double calcular(int cantidadDeProductos) {
-        Double d = this.getPrecio() * cantidadDeProductos / this.diasPorCaducar;
-        return d;
+        return this.getPrecio() * cantidadDeProductos / this.diasPorCaducar;
     }
 
 }
