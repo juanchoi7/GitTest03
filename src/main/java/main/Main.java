@@ -14,8 +14,9 @@ public class Main {
         productos.add(new Producto("nombre1", 1.0));
         productos.add(new Producto("nombre2", 2.0));
         productos.add(new Producto("nombre33", 3.0));
-        productos.add(new ProductoPerecedero(7));
-        productos.add(new ProductoNoPerecedero("Tipo5"));
+        productos.add(new ProductoPerecedero("nombre 4",4.40, 5));
+        productos.add(new ProductoNoPerecedero("nombre 5", 23.3, "tipo 1" ));
+
 
         System.out.println(productos.get(0).toString());
         System.out.println(productos.get(1).toString());
